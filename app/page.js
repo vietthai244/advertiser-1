@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <img src="https://www.pixelhere.com/et/event.php?advertiser=212168&cid=CLICK001&id=824d26&value=0.1&tid=1111" border="0" width="1" height="1" />
+      <img src="https://www.pixelhere.com/et/event.php?advertiser=212168&cid=CLICK001&id=824d26&udid=22003311&value=0.1&tid=1111" border="0" width="1" height="1" />
       <div className="container">
         <img src="image.jpg" alt="image"/>
         <button className="btn" onClick={handleOpenAd}>Join now</button>

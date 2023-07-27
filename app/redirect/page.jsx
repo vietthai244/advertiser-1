@@ -6,7 +6,6 @@ import sha from "sha256";
 import uniqid from "uniqid";
 
 export default function RedirectingPage() {
-  const cid = uniqid()
   const uuid = uniqid()
   const tid = sha(uuid + new Date())
   const max = 20
@@ -14,6 +13,7 @@ export default function RedirectingPage() {
   const price = Math.floor(Math.random() * (max - min)) + min
 
   const params = useSearchParams()
+  const cid = useSearchParams().get("clickid")
 
   useEffect(() => {
     const url = params.get("url")

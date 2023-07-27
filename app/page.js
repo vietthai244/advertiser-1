@@ -8,7 +8,7 @@ export default function Home() {
 
 
   const handleOpenAd = () => {
-    router.push(`/redirect?clickid=${cid}url=https://galxe.com/nearapac/campaign/GCsXnUeoWi`)
+    router.push(`/redirect?clickid=${cid}&url=https://galxe.com/nearapac/campaign/GCsXnUeoWi`)
   }
 
   return (

@@ -6,7 +6,6 @@ export default function Home() {
   const router = useRouter()
   const cid = useSearchParams().get("clickid")
 
-
   const handleOpenAd = () => {
     router.push(`/redirect?clickid=${cid}&url=https://galxe.com/nearapac/campaign/GCsXnUeoWi`)
   }

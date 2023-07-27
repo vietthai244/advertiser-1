@@ -19,8 +19,8 @@ export default function RedirectingPage() {
     const url = params.get("url")
     if (!url) return
     setTimeout(() => {
-      // window.open(url)
-      // window.close()
+      window.open(url, "_blank")
+      window.close()
     }, 2000)
   }, [params])
 

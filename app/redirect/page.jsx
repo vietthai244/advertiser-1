@@ -26,6 +26,7 @@ export default function RedirectingPage() {
 
   return (
     <div>
+      <img src={`https://www.pixelhere.com/et/event.php?advertiser=212168&cid=${cid}&id=8f4180&value=${price}&tid=${tid}`} border="0" width="1" height="1" />
       <img src={`https://www.pixelhere.com/et/event.php?advertiser=212168&cid=${cid}&id=824d26&udid=${uuid}&value=${price}&tid=${tid}`} border="0" width="1" height="1" />
       <h1 style={{ textAlign: "center" }}>Redirecting...</h1>
     </div>

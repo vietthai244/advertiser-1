@@ -4,11 +4,10 @@ import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import sha from "sha256";
 import uniqid from "uniqid";
-import { uuid } from "uuidv4";
 
 export default function RedirectingPage() {
   const cid = uniqid()
-  const uuid = uuid()
+  const uuid = uniqid()
   const tid = sha(uuid + new Date())
   const max = 20
   const min = 1

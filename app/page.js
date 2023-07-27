@@ -2,11 +2,10 @@
 
 import { useRouter } from 'next/navigation'
 import uniqid from "uniqid";
-import { uuid } from "uuidv4";
 import sha from "sha256";
 
 export default function Home() {
-  const uuid = uuid()
+  const uuid = uniqid()
   const cid = uniqid()
   const tid = sha(uuid + new Date())
   const router = useRouter()

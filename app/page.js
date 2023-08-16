@@ -6,7 +6,7 @@ import sha from "sha256";
 
 export default function Home() {
   const router = useRouter()
-  const cid = useSearchParams().get("clickid")
+  const cid = useSearchParams().get("clickId")
   const udid = uniqid()
   const tid = sha(udid + new Date())
   const max = 5

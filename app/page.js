@@ -24,6 +24,7 @@ export default function Home() {
       {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=click&id=6&advertiser_id=9&variable=personal&value=10&tid=11&udid=22" border="0" width="1" height="1" />*/}
       {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=&id=5&advertiser_id=9&variable=personal&value=109&tid=tx10000&udid=udid1000" border="0" width="1" height="1" />*/}
 
+<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=11&id=9&advertiser_id=2&variable=111&value=1111&tid=2&udid=22" border="0" width="1" height="1" />
       <img src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=11&advertiser_id=2&zid=${zid}&variable=custom&value=${price}&tid=${tid}`} border="0" width="1" height="1" />
       <div className="container">
         <img src="image.jpg" alt="image"/>

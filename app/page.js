@@ -33,9 +33,9 @@ export default function Home() {
       {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=click&id=6&advertiser_id=9&variable=personal&value=10&tid=11&udid=22" border="0" width="1" height="1" />*/}
       {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=&id=5&advertiser_id=9&variable=personal&value=109&tid=tx10000&udid=udid1000" border="0" width="1" height="1" />*/}
 
-      <img
-        src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=9&advertiser_id=2&variable=homepage_neargiveaway&value=${price1}&tid=${tid1}&udid=${udid1}`}
-        border="0" width="1" height="1"/>
+      {/*<img*/}
+      {/*  src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=9&advertiser_id=2&variable=homepage_neargiveaway&value=${price1}&tid=${tid1}&udid=${udid1}`}*/}
+      {/*  border="0" width="1" height="1"/>*/}
       <img
         src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=11&advertiser_id=2&zid=${zid}&variable=custom&value=${price2}&tid=${tid2}`}
         border="0" width="1" height="1"/>

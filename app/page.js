@@ -36,9 +36,7 @@ export default function Home() {
       {/*<img*/}
       {/*  src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=9&advertiser_id=2&variable=homepage_neargiveaway&value=${price1}&tid=${tid1}&udid=${udid1}`}*/}
       {/*  border="0" width="1" height="1"/>*/}
-      <img
-        src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=11&advertiser_id=2&zid=${zid}&variable=custom&value=${price2}&tid=${tid2}`}
-        border="0" width="1" height="1"/>
+      <img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=a&id=17&advertiser_id=16&variable=&value=&tid=b&udid=" border="0" width="1" height="1" />
       <div className="container">
         <img src="image.jpg" alt="image"/>
         <button className="btn" onClick={handleOpenAd}>Join now</button>

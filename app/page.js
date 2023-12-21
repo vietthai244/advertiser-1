@@ -28,12 +28,7 @@ export default function Home() {
 
   return (
     <>
-      {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=click&id=6&advertiser_id=9&variable=personal&value=10&tid=11&udid=22" border="0" width="1" height="1" />*/}
-      {/*<img src="https://backend-dev.lunargumble.lol/api/events/pixel?cid=&id=5&advertiser_id=9&variable=personal&value=109&tid=tx10000&udid=udid1000" border="0" width="1" height="1" />*/}
-      {/*<img*/}
-      {/*  src={`https://backend-dev.lunargumble.lol/api/events/pixel?cid=${cid}&id=9&advertiser_id=2&variable=homepage_neargiveaway&value=${price1}&tid=${tid1}&udid=${udid1}`}*/}
-      {/*  border="0" width="1" height="1"/>*/}
-      <img src="https://backend-dev.0xseen.com/api/events/pixel?cid=&id=22&advertiser_id=21&variable=custom&value=20&tid=0x000&udid=0x001" border="0" width="1" height="1" />
+      <img src={`https://backend-dev.0xseen.com/api/events/pixel?cid=${cid}&id=22&advertiser_id=21&variable=custom&value=${price1}&tid=${tid1}&udid=${udid1}`} border="0" width="1" height="1" />
       <div className="container">
         <img src="image.jpg" alt="image"/>
         <button className="btn" onClick={handleOpenAd}>Join now</button>
